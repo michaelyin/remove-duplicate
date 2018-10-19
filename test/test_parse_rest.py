@@ -6,7 +6,9 @@ import requests
 from unittest import TestCase
 import time
 
-
+'''
+python -m unittest test.test_parse_rest.TestTokenService.test_parse_svc
+'''
 
 class TestTokenService(TestCase):
     def setUp(self):
